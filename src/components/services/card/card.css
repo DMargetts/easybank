@@ -1,0 +1,12 @@
+.card {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+}
+.card img {
+  height: 40%;
+  width: 40%;
+}
+.card h3 {
+  margin: 10px 0px;
+}

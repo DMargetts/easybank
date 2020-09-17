@@ -1,0 +1,11 @@
+.articleCard {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+}
+.articleCard img {
+  object-fit: contain;
+}
+.articleCard h3 {
+  margin: 10px 0px;
+}

@@ -1,0 +1,20 @@
+.servicesBackground {
+  width: 100%;
+  background: hsl(220, 16%, 96%);
+}
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+}
+.servicesText {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-bottom: 50px;
+}
+.cardList {
+  display: flex;
+  justify-content: space-around;
+}

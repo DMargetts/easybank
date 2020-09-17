@@ -1,0 +1,8 @@
+.latestBackground {
+  width: 100%;
+  background: hsl(0, 0%, 98%);
+}
+.latest {
+  display: flex;
+  flex-direction: column;
+}

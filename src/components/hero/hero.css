@@ -1,0 +1,29 @@
+.heroBackground {
+  width: 100%;
+  background: hsl(0, 0%, 98%);
+  background-image: url("../../images/bg-intro-desktop.svg");
+  background-position: 400px;
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+}
+.hero img {
+  width: 50%;
+  object-fit: cover;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+.text h1 {
+  font-size: 2em;
+}
+.text p {
+  margin: 20px 0px;
+}

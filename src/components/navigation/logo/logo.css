@@ -1,0 +1,6 @@
+.logo img {
+  padding: 8px 0px 0px 0px;
+}
+.logo:hover {
+  cursor: pointer;
+}
