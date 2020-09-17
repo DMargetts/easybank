@@ -1,7 +1,6 @@
 import React from "react";
 import Logo from "./logo/Logo";
 import Button from "../button/Button";
-import Layout from "../layout/layout";
 
 import "./navigation.css";
 const Navigation = () => {

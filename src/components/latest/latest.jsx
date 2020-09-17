@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../layout/layout";
 import ArticleCard from "./articleCard/articleCard";
-
+import "./latest.css";
 import currency from "../../images/image-currency.jpg";
 import confetti from "../../images/image-confetti.jpg";
 import restaurant from "../../images/image-restaurant.jpg";

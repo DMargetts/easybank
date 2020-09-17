@@ -4,9 +4,11 @@ const articleCard = ({ image, header, paragraph, author }) => {
   return (
     <div className="articleCard">
       <img src={image} alt="" />
-      <label>{author}</label>
-      <h3>{header}</h3>
-      <p>{paragraph}</p>
+      <div className="cardInfo">
+        <label>By {author}</label>
+        <h3>{header}</h3>
+        <p>{paragraph}</p>
+      </div>
     </div>
   );
 };

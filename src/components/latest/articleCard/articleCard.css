@@ -1,11 +1,20 @@
 .articleCard {
-  width: 24%;
+  width: 22%;
   display: flex;
   flex-direction: column;
+  background: white;
 }
 .articleCard img {
-  object-fit: contain;
+  width: 270px;
+  height: 180px;
 }
 .articleCard h3 {
   margin: 10px 0px;
+}
+.articleCard h3:hover {
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
+}
+.cardInfo {
+  padding: 20px;
 }

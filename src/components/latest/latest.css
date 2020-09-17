@@ -5,4 +5,9 @@
 .latest {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  height: 600px;
+}
+.latest h1 {
+  margin-bottom: 50px;
 }

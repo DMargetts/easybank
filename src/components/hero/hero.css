@@ -10,16 +10,19 @@
 .hero {
   display: flex;
   justify-content: space-between;
+  overflow-y: hidden;
 }
 .hero img {
-  width: 50%;
+  width: 55%;
   object-fit: cover;
+  margin-top: -50px;
 }
 .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 30%;
+  margin-top: -130px;
 }
 .text h1 {
   font-size: 2em;
